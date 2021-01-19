@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CheckBox
+            android:id="@+id/g1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question1" />
+
+        <CheckBox
+            android:id="@+id/g2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question2" />
+
+        <CheckBox
+            android:id="@+id/g3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question3" />
+
+        <CheckBox
+            android:id="@+id/g4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question4" />
+
+        <CheckBox
+            android:id="@+id/g5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question5" />
+
+        <CheckBox
+            android:id="@+id/g6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question6" />
+
+        <CheckBox
+            android:id="@+id/g7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question7" />
+
+        <CheckBox
+            android:id="@+id/g8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question8" />
+
+
+        <CheckBox
+            android:id="@+id/g9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question9" />
+
+        <CheckBox
+            android:id="@+id/g10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question10" />
+
+        <CheckBox
+            android:id="@+id/g11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question11" />
+
+        <CheckBox
+            android:id="@+id/g12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Question12" />
+
+        <TextView
+            android:id="@+id/hasilview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/hasil"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="@+id/buttonResult"
+            app:layout_constraintStart_toStartOf="@+id/buttonResult"
+            app:layout_constraintTop_toBottomOf="@+id/buttonResult"
+            android:textAlignment="center"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/tingkatview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/hasil"
+            android:textAlignment="center"
+            android:textSize="25sp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/result"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>
+
+</FrameLayout>

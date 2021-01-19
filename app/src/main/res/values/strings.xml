@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Sistem Pakar Diagnosa Depresi</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="test">test</string>
+    <string name="about">About</string>
+    <string name="result">Result</string>
+    <string name="Question1">Apakah anda merasa sedih?</string>
+    <string name="Question2">Apakah anda merasa sering menangis dengan alasan yang tidak jelas?</string>
+    <string name="Question3">Apakah anda merasa kecewa dengan diri sendiri?</string>
+    <string name="Question4">Apakah anda merasa terganggu dengan segala hal? </string>
+    <string name="Question5">Apakah anda merasa mempunyai perasaan benci
+terhadap diri sendiri?</string>
+    <string name="Question6">Apakah anda merasa mudah tersinggung?</string>
+    <string name="Question7">Apakah anda merasa kehilangan selera makan?</string>
+    <string name="Question8">Apakah anda merasa sulit mengambil keputusan? </string>
+    <string name="Question9">Apakah anda merasa mempunyai perasaan dihukum?</string>
+    <string name="Question10">Apakah anda merasa mempunyai pikiran untuk bunuh
+diri?</string>
+    <string name="Question11">Apakah anda merasa ada perubahan penambahan atau
+penurunan berat badan?</string>
+    <string name="Question12">Apakah anda merasa kurang percaya diri?</string>
+    <string name="detail">Detail</string>
+    <string name="hasil">Hasil</string>
+    <string name="sistem_pakar_diagnosa_depresi_tingkat_remaja">Sistem Pakar Diagnosa Depresi tingkat Remaja</string>
+</resources>
